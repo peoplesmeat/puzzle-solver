@@ -123,7 +123,7 @@ def solve(moves, board):
         if new_board[new_state.x][new_state.y]:
             # Already Visited that Tile
             pass
-        else:ª
+        else:
             new_board[new_state.x][new_state.y] = True
             solved = solve(new_moves, new_board)
             if solved:
